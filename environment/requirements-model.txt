@@ -1,0 +1,13 @@
+# Observed model-inspection runtime: Python 3.10.18; optional, not needed for analysis-only use.
+numpy==1.26.4
+pandas==2.3.2
+matplotlib==3.10.7
+scikit-learn==1.7.1
+PyYAML==6.0.3
+joblib==1.5.1
+torch==2.3.1+cu121
+--extra-index-url https://download.pytorch.org/whl/cu121
+lightning==2.2.1
+lightning-utilities==0.15.2
+pytorch-forecasting==1.5.0
+torchmetrics==1.1.1

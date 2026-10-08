@@ -1,0 +1,200 @@
+{
+  "main3_annual.csv": {
+    "figure": "3",
+    "columns": [
+      "year",
+      "delta_gpp"
+    ],
+    "units": {
+      "delta_gpp": "g C yr^-1"
+    },
+    "rows_in_template": 0
+  },
+  "main3_spatial.csv": {
+    "figure": "3",
+    "columns": [
+      "grid_id",
+      "lon_c",
+      "lat_c",
+      "mean_bgc"
+    ],
+    "units": {
+      "lon_c": "degrees east",
+      "lat_c": "degrees north",
+      "mean_bgc": "10^9 g C yr^-1"
+    },
+    "rows_in_template": 0
+  },
+  "main3_display.csv": {
+    "figure": "3",
+    "columns": [
+      "top10_share",
+      "top20pct_share",
+      "vmax"
+    ],
+    "units": {
+      "top10_share": "percent",
+      "top20pct_share": "percent",
+      "vmax": "10^9 g C yr^-1"
+    },
+    "rows_in_template": 0
+  },
+  "main4_positive_years.csv": {
+    "figure": "4",
+    "columns": [
+      "year",
+      "positive_month_share",
+      "event_positive_share",
+      "negative_grids",
+      "positive_grids",
+      "negative_pct",
+      "positive_pct"
+    ],
+    "units": {
+      "positive_month_share": "fraction",
+      "event_positive_share": "fraction",
+      "negative_pct": "percent",
+      "positive_pct": "percent"
+    },
+    "rows_in_template": 0
+  },
+  "main4_negative_years_summary.csv": {
+    "figure": "4",
+    "columns": [
+      "metric",
+      "lower",
+      "upper",
+      "mean"
+    ],
+    "units": {
+      "lower": "percent",
+      "upper": "percent",
+      "mean": "percent"
+    },
+    "rows_in_template": 0
+  },
+  "main4_month.csv": {
+    "figure": "4",
+    "columns": [
+      "month",
+      "negative_share",
+      "positive_share"
+    ],
+    "units": {
+      "negative_share": "fraction",
+      "positive_share": "fraction"
+    },
+    "rows_in_template": 0
+  },
+  "main4_latitude.csv": {
+    "figure": "4",
+    "columns": [
+      "midpoint",
+      "negative_share",
+      "positive_share"
+    ],
+    "units": {
+      "midpoint": "degrees north",
+      "negative_share": "fraction",
+      "positive_share": "fraction"
+    },
+    "rows_in_template": 0
+  },
+  "main5_hazard.csv": {
+    "figure": "5",
+    "columns": [
+      "metric",
+      "scenario",
+      "mean_ratio",
+      "ci_low",
+      "ci_high"
+    ],
+    "units": {
+      "mean_ratio": "dimensionless ratio",
+      "ci_low": "dimensionless ratio",
+      "ci_high": "dimensionless ratio"
+    },
+    "rows_in_template": 0
+  },
+  "main5_fixed.csv": {
+    "figure": "5",
+    "columns": [
+      "tag",
+      "delta_tg_c_yr"
+    ],
+    "units": {
+      "delta_tg_c_yr": "Tg C yr^-1; 2091-2100 mean"
+    },
+    "rows_in_template": 0
+  },
+  "main5_area_ranges.csv": {
+    "figure": "5",
+    "columns": [
+      "area_case",
+      "min",
+      "mean",
+      "max"
+    ],
+    "units": {
+      "min": "dimensionless ratio",
+      "mean": "dimensionless ratio",
+      "max": "dimensionless ratio"
+    },
+    "rows_in_template": 0
+  },
+  "main6_historical.csv": {
+    "figure": "6",
+    "columns": [
+      "grid_id",
+      "year",
+      "delta_gpp"
+    ],
+    "units": {
+      "delta_gpp": "g C yr^-1"
+    },
+    "rows_in_template": 0
+  },
+  "main6_future.csv": {
+    "figure": "6",
+    "columns": [
+      "grid_id",
+      "tag",
+      "annual_delta_gpp_cf_minus_factual_mean_2091_2100"
+    ],
+    "units": {
+      "annual_delta_gpp_cf_minus_factual_mean_2091_2100": "g C yr^-1; 2091-2100 mean"
+    },
+    "rows_in_template": 0
+  },
+  "main6_heatmap.csv": {
+    "figure": "6",
+    "columns": [
+      "grid_id",
+      "year",
+      "mean_sst",
+      "vpd_pa",
+      "srad_mj_m2_day",
+      "isMHW",
+      "duration_weighted_sum",
+      "intensity_cumulative_weighted_sum"
+    ],
+    "units": {
+      "mean_sst": "within-grid z score, already computed",
+      "vpd_pa": "within-grid z score, already computed",
+      "srad_mj_m2_day": "within-grid z score, already computed",
+      "isMHW": "within-grid z score, already computed",
+      "duration_weighted_sum": "within-grid z score, already computed",
+      "intensity_cumulative_weighted_sum": "within-grid z score, already computed"
+    },
+    "rows_in_template": 0
+  },
+  "main6_labels.csv": {
+    "figure": "6",
+    "columns": [
+      "grid_id",
+      "label"
+    ],
+    "units": {},
+    "rows_in_template": 0
+  }
+}

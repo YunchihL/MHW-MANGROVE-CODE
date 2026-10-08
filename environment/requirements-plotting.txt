@@ -1,0 +1,6 @@
+# Observed plotting runtime: Python 3.13.5. Use a separate environment from model inspection.
+numpy==2.3.2
+pandas==2.3.2
+matplotlib==3.10.6
+Cartopy==0.25.0
+Pillow==11.3.0
